@@ -63,15 +63,19 @@ footer{
 .business-name img{
     max-width: 100%;
     max-height: 1900px;
+    opacity: 0.8;
 }
 
 .business-text{
     position:absolute;
-    top: 8%;
-    left: 50%;
+    top: 12%;
+    left: 78%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px;
-    background-color: #b2a7d3;
+}
+
+.business-text p{
+    font-size: 0.9rem;
 }
 
 .occassion{
